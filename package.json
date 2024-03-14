@@ -1,0 +1,52 @@
+{
+  "name": "vue-3-compat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^31.1.1",
+    "@ag-grid-community/styles": "^31.1.1",
+    "@ag-grid-community/vue3": "^31.1.1",
+    "@vue/compat": "3.3.4",
+    "vee-validate": "^4.12.6",
+    "vue": "3.3.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-eslint": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^6.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [],
+  "description": ""
+}
